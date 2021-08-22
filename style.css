@@ -1,0 +1,108 @@
+/* .container{
+    border: thin solid red;
+}
+.row{
+    border: thin solid red;
+}
+.col{
+    border: thin solid red;
+} */
+.main-txt{
+    font-weight: bolder;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.character-img{
+    height: 200px;
+    border: thin solid gray;
+    padding: 5px;
+    border-radius: 5px;
+    background-color:transparent;
+    width: 150px;
+}
+.collapse_faculty{
+    margin-top: 10px;
+    font-family: cursive;
+    font-stretch: expanded;
+}
+.slide-text{
+    margin-bottom: 20px;
+}
+.slide-text:hover{
+    background-color: white;
+    color: black;
+    border: transparent;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius:40px ;
+}
+#slider{
+    margin-bottom: 30px;
+}
+.slide-text>h5>a:hover{
+    text-decoration: none;
+}
+.icons{
+    color:black;
+    margin: 10px;
+    text-align: center;
+}
+#whatsapp:hover{
+    color: green;
+}
+#instagram:hover{
+    color:red;
+}
+#github:hover{
+    color: blue;
+}
+.contact-links{
+    color: royalblue;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+
+}
+.contact-links:hover{
+    color:white;
+    text-decoration:none;   
+    padding-left: 5px;
+    padding-right: 5px;
+    border: thin solid transparent;
+    background-color: #181818;
+    border-radius: 10px;
+    transition: 2s;
+}
+footer{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer:hover{
+    background-color:#e6e6e6;
+
+}
+#msg,#name,#mail{
+    overflow-x: hidden;
+    margin: 10px;
+    border: thin solid black;
+    color:grey;
+    align-content: center;
+    padding-left: 10px;
+}
+#msg{
+    height: 100px;
+    float: inline-start;
+}
+#submit-btn{
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: capitalize;
+}
+#YOUR_NAME{
+    border: transparent;
+}
+/* #YOUR_NAME:hover{
+    background-color: #181818;
+    color:white
+} */

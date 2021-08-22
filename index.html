@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME | ANIME-LAND</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <!-- FA FA ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- tab icon -->
+    <link rel="icon"
+        href="https://e1.pngegg.com/pngimages/435/457/png-clipart-noragami-023-circle-icon-noragami-023-anime-character-wearing-black-jacket-thumbnail.png"
+        type="image/gif" sizes="300*300 ">
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="fluid-container" id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-success bg-light">
+            <a class="navbar-brand" href="#"><img src="https://images.squarespace-cdn.com/content/v1/5008a2b9c4aa6450352d1d97/1391960929869-MCMZDK21SLBVF4WEJO8W/wasabi-logo.png" alt="ANIME-LAND" height="50px" width="120px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link  " href="#navbar" title="Home">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Top Anime">
+                            ANIME
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#Jujutsu_Kaisen" style="color:red">Jujutsu_Kaisen <i
+                                    class="fa fa-fire"></i></a>
+                            <a class="dropdown-item" href="#Death_Note " style="color:rebeccapurple">Death_Note <i
+                                    class="fa fa-book"></i>
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#YOUR_NAME" style="color:royalblue">YOUR_NAME <i
+                                    class="fa fa-heart"></i></a>
+                            <a class="dropdown-item disabled" href="#weathering_with_you" style="color:royalblue" title="Coming soon">Weathering_With_You
+                                <i class="fa fa-cloud"></i></a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#contact_us" title="Contact me">Download</a >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" title="Comming soon">WATCH Online</a>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <nav class="navbar navbar-light bg-light">
+                        <!-- dark mode button -->
+                        <button class="btn btn-outline-dark" id="mode" style="margin-right: 10px;"><i
+                                class="fa fa-moon-o" aria-hidden="true"></i></button>
+
+                        <button class="btn btn-outline-success" type="button">Login/SingUp</button>
+                    </nav>
+                </form>
+            </div>
+        </nav>
+    </div>
+    <!-- slider -->
+    <div class="container" id="slider">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="https://i.ytimg.com/vi/NjeIK4yKDWk/maxresdefault.jpg"
+                        alt="First slide" height="600px">
+                    <div class="carousel-caption d-none d-md-block slide-text">
+                        <h5><a href="#Jujutsu_Kaisen" style="color:unset">Jujutsu_Kaisen</a></h5>
+                        <p>The word Jujutsu translates into sorcery. And Jujutsu Kaisen literally means sorcery fight
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100"
+                        src="https://static0.cbrimages.com/wordpress/wp-content/uploads/2021/06/Death-Note-End.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5"
+                        alt="Second slide" height="600px">
+                    <div class="carousel-caption d-none d-md-block slide-text">
+                        <h5> <a href="#Death_Note"> Death-Note</a></h5>
+                        <p>The titular supernatural notebook used by the Shinigami to sustain their life.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100"
+                        src="https://static.wikia.nocookie.net/01662c7d-5dc6-4746-a7b5-afe5afb747ab/scale-to-width-down/800"
+                        alt="Third slide" height="600px">
+                    <div class="carousel-caption d-none d-md-block slide-text">
+                        <h5><a href="#YOUR_NAME" style="color:inherit">YOUR NAME</a></h5>
+                        <p>BEST STORY EVER MUST WATCH! <i class="fa fa-heart" aria-hidden="true"></i></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="https://bit.ly/3z6Zci5" alt="fourth slide" height="600px">
+                    <div class="carousel-caption d-none d-md-block slide-text">
+                        <h5><a href="#weathering_with_you">Weathering With You</a></h5>
+                        <p>Girl who can manipulate the weather.(Coming soon) <i class="fa fa-cloud" aria-hidden="true"></i></p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!-- jujustu kaisen -->
+    <div class="container" id="Jujutsu_Kaisen">
+        <p style="text-align: center; font-family: cursive; color:grey;text-decoration: underline;font-size: larger;">jujustu Kaisen
+        <i class="fa fa-fire"></i></p>
+        <div class="row">
+            <div class="col-sm-3 col-12" style="text-align: center;">
+                <img src="https://bit.ly/3B2ZkQy" alt="jujutsu kaisen" height="300px" width="250px"
+                    style="border-radius: 5px;" class="     ">
+                <p class="collapse_faculty"
+                    style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-transform: uppercase;">
+                    Jujutsu_Kaisen <i class="fa fa-fire" style="color: red;"></i></p>
+
+            </div>
+            <div class="col-sm-6 col-12" style="vertical-align: middle;text-align: center; align-items: center;">
+                <p style="text-align:center; vertical-align: middle; margin-top: 20px; font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color:rebeccapurple;">Jujutsu Kaisen is a Japanese manga series written and illustrated by Gege
+                    Akutami, serialized in Shueisha's Weekly Shōnen Jump since March 2018. The Jujutsu Kaisen chapters
+                    are collected and published by Shueisha, with sixteen tankōbon volumes released as of June 2021.
+                </p>
+
+                <a class="btn btn-info " data-toggle="collapse" href="#summary" role="button" aria-expanded="false"
+                    aria-controls="collapseExample">
+                    Summary
+                </a>
+                <a class="btn btn-info " data-toggle="collapse" href="#story" role="button" aria-expanded="false"
+                    aria-controls="collapseExample">
+                    STORY
+                </a>
+                <a class="btn btn-info " data-toggle="collapse" href="#characters" role="button" aria-expanded="false"
+                    aria-controls="collapseExample">
+                    Main characters
+                </a>
+                <a class="btn btn-info " data-toggle="collapse" href="#trailer" role="button" aria-expanded="false"
+                    aria-controls="collapseExample">
+                    Trailer
+                </a>
+            </div>
+            <div class="col-sm-3 col-12" style="text-align: center;vertical-align: middle;">
+                <p style="margin-top: 20px;"><b>Author: </b>Gege Akutami </p>
+                <p><b>Episodes:</b> 24 (List of episodes)</p>
+                <p><b>Published by:</b> Shueisha</p>
+                <p><b>English magazine:</b> NA Weekly Shonen Jump</p>
+                <p><b>Genres:</b> Adventure fiction, Dark fantasy, Supernatural fiction</p>
+            </div>
+        </div>
+        <!-- summary -->
+        <div class="collapse" id="summary">
+            <div class="card card-body" style="font-weight: bold;">
+                <h3>SUMMARY OF ANIME</h3>
+                Yuuji is a genius at track and field. But he has zero interest running around in circles, he’s happy as
+                a clam in the Occult Research Club. Although he’s only in the club for kicks, things get serious when a
+                real spirit shows up at school! Life’s about to get really strange in Sugisawa Town #3 High School!
+            </div>
+        </div>
+        <!-- story -->
+        <div class="collapse" id="story">
+            <div class="card card-body" style="font-weight: bold;">
+                <h3>STORY IN SORT</h3>
+                The Jujutsu Kaisen chapters are collected and published by Shueisha, with sixteen tankōbon volumes
+                released as of June 2021. The story follows high school student Yuji Itadori as he joins a secret
+                organization of Jujutsu Sorcerers in order to kill a powerful Curse named Ryomen Sukuna, of whom Yuji
+                becomes the host.
+            </div>
+        </div>
+
+        <!-- Faculty -->
+        <div class="collapse" id="characters">
+            <div class="card card-body" style="font-weight: bold;">
+                <div class="container">
+                    <div class="row " style="text-align: center;">
+                        <div class="col-sm-2 col-6  collapse_faculty">
+                            <img src="https://cdn.anisearch.com/images/character/cover/full/97/97602.webp" alt=""
+                                class="character-img">
+                            <p>Yuuji Itadori</p>
+                        </div>
+                        <div class="col-sm-2 col-6 collapse_faculty">
+                            <img src="https://i.pinimg.com/originals/7c/ff/a1/7cffa15ffffdac5452dcfcb1f8787c17.jpg"
+                                alt="gojo" class="character-img">
+                            <p>Satoru Gojo</p>
+                        </div>
+                        <div class="col-sm-2 col-6 collapse_faculty">
+                            <img src="https://i.pinimg.com/originals/a0/a7/57/a0a757ea5565bfb45daf1b45281aeb69.jpg"
+                                alt="Kiyotaka" class="character-img">
+                            <p> Nobara Kugisaki</p>
+                        </div>
+                        <div class="col-sm-2 col-6 collapse_faculty">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-tpwwrUWEqiN6AFRDvU9D9SrTlA-OcZbdvw&usqp=CAU"
+                                alt="Megumi Fushiguro" class="character-img">
+                            <p> Megumi Fushiguro </p>
+
+                        </div>
+                        <div class="col-sm-2 col-6 collapse_faculty">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd_qJDmbYgTGrLxMhEJDytnXs4vQgWgHvhIA&usqp=CAU"
+                                alt="sukuna" class="character-img">
+                            <p>sukuna(king of curses)</p>
+
+                        </div>
+                        <div class="col-sm-2 col-6 collapse_faculty">
+                            <img src="https://i.pinimg.com/originals/b2/ce/97/b2ce976368408e2b9193e2874d5789d8.jpg"
+                                alt="JOGO" class="character-img">
+                            <p>JOGO(unspecified curse spirit) </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- trailer -->
+        <div class="collapse" id="trailer">
+            <div class="card card-body" style="font-weight: bold; align-items: center;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/tfMy7uUDsAQ"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- Death-Note -->
+    <div class="container" id="Death_Note" style="margin-top: 30px ;">
+        <p style="text-align: center; font-family: cursive; color:grey;text-decoration: underline;font-size: larger;">Death-Note
+        <i class="fa fa-book"></i></p>
+        <div class="row">
+            <div class="col-sm-3 col-12 " style="text-align: center;">
+                <img src="https://cdn.europosters.eu/image/750/posters/death-note-from-the-shadows-i58005.jpg"
+                    alt="jujutsu kaisen" height="350px" width="250px" style="border-radius: 5px;" class="     ">
+                <p class="collapse_faculty"
+                    style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    DEATH-NOTE <i class="fa fa-book" style="color: black;"></i></p>
+
+            </div>
+            <div class="col-sm-6 col-12 " style="vertical-align: middle;text-align: center; align-items: center;">
+                <p style="text-align:center; vertical-align: middle; margin-top: 20px; font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    color:rebeccapurple;"> Death Note mainly explores the idea of “justice ”. It shows that there is no
+                    clear line between 'good' and 'bad', and that morals are subjective and contextual. Literary
+                    speaking, the central theme of it is the intellectual, his views on the world, how he would act in
+                    such a drastic situation and how far he would go.
+                </p>
+
+                <a class="btn btn-info " data-toggle="collapse" href="#summary2" role="button" aria-expanded="false"
+                    aria-controls="collapseExample">
+                    Summary
+                </a>
+                <a class="btn btn-info " data-toggle="collapse" href="#story2" role="button" aria-expanded="false"
+                    aria-controls="collapseExample">
+                    STORY
+                </a>
+                <a class="btn btn-info " data-toggle="collapse" href="#characters2" role="button" aria-expanded="false"
+                    aria-controls="collapseExample">
+                    Main characters
+                </a>
+                <a class="btn btn-info " data-toggle="collapse" href="#trailer2" role="button" aria-expanded="false"
+                    aria-controls="collapseExample">
+                    Trailer
+                </a>
+            </div>
+            <div class="col-sm-3 col-12" style="text-align: center;vertical-align: middle;">
+                <p style="margin-top: 20px;"><b>Author: </b> Tsugumi Ohba </p>
+                <p><b>Episodes:</b> 37 (List of episodes)</p>
+                <p><b>Published by:</b> Shueisha</p>
+                <p><b>Adaptations:</b> Death Note 2: The Last Name (2006),</p>
+                <p><b>Genres:</b>Mystery, Psychological thriller, Thriller</p>
+            </div>
+        </div>
+        <!-- summary -->
+        <div class="collapse" id="summary2">
+            <div class="card card-body" style="font-weight: bold;">
+                <h3>SUMMARY OF Death-Note</h3>
+                Light Yagami (Tatsuya Fujiwara) is a normal, undistinguished college student -- that is, until he
+                discovers an odd notebook lying on the ground. He soon discovers that the notebook has magic powers: If
+                someone's name is written on it while the writer imagines that person's face, he or she will die.
+                Intoxicated with his new godlike power, Light kills those he deems unworthy of life. But a mysterious
+                detective known only as L (Ken'ichi Matsuyama) becomes determined to put a stop to his reign.
+            </div>
+        </div>
+        <!-- story -->
+        <div class="collapse" id="story2">
+            <div class="card card-body" style="font-weight: bold;">
+                <h3>STORY</h3>
+                The story follows Light Yagami, a teen genius who discovers a mysterious notebook: the "Death Note",
+                which belonged to the Shinigami Ryuk, and grants the user the supernatural ability to kill anyone whose
+                name is written in its pages.
+            </div>
+        </div>
+
+        <!-- charecters -->
+        <div class="collapse" id="characters2">
+            <div class="card card-body" style="font-weight: bold;">
+                <div class="container">
+                    <div class="row " style="text-align: center;">
+                        <div class="col-sm-2 col-6  collapse_faculty">
+                            <img src="https://static.wikia.nocookie.net/villains/images/5/54/Light_YagamiHD.jpg/revision/latest?cb=20180414020152"
+                                alt="Light Yagami" class="character-img">
+                            <p>Light Yagami AKA(KIRA) </p>
+                        </div>
+                        <div class="col-sm-2 col-6 collapse_faculty">
+                            <img src="https://static.wikia.nocookie.net/deathnote/images/7/76/299276L.jpg/revision/latest?cb=20160609084420"
+                                alt="L" class="character-img">
+                            <p>L Lawliet</p>
+                        </div>
+                        <div class="col-sm-2 col-6 collapse_faculty">
+                            <img src="https://static.wikia.nocookie.net/villains/images/b/bd/Ryuk.png/revision/latest?cb=20170308035148"
+                                alt="RYUK" class="character-img">
+                            <p>RYUK(Shinigami)</p>
+                        </div>
+                        <div class="col-sm-2 col-6 collapse_faculty">
+                            <img src="https://static.wikia.nocookie.net/deathnote/images/8/8a/ImagesCASWBZQN.jpg/revision/latest?cb=20170321051910"
+                                alt="Misa Amane" class="character-img">
+                            <p>Misa Amane AKA(Second KIRA)</p>
+
+                        </div>
+                        <div class="col-sm-2 col-6 collapse_faculty">
+                            <img src="https://static.wikia.nocookie.net/deathnote/images/a/a9/Manga_character_icon_Near.jpg/revision/latest?cb=20170716181142"
+                                alt="near" class="character-img">
+                            <p>NEAR</p>
+
+                        </div>
+                        <div class="col-sm-2 col-6 collapse_faculty">
+                            <img src="https://static.wikia.nocookie.net/deathnote/images/7/79/Soichiro_Yagami.jpg/revision/latest?cb=20081007134622"
+                                alt="Soichiro Yagami" class="character-img">
+                            <p>Soichiro Yagami</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- trailer -->
+        <div class="collapse" id="trailer2">
+            <div class="card card-body" style="font-weight: bold; align-items: center;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Amag3NrjBc0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- your name -->
+    <div class="container" id="YOUR_NAME" style="margin-top: 30px;">
+        <p style="text-align: center; font-family: cursive; color:grey;text-decoration: underline;font-size: larger;">YOUR_NAME <i class="fa fa-heart"></i></p>
+        <div class="row">
+            <div class="col-sm-3 col-12" style="text-align:center;vertical-align: middle; ">
+                <img src="https://contentserver.com.au/assets/525768_gnau_yourname_p_v7_aa.jpg" alt="YOUR NAME"
+                    height="350px" width="250px" style="border-radius: 5px;">
+                <p class="collapse_faculty"
+                    style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    YOUR NAME <i class="fa fa-heart" style="color: red;"></i></p>
+
+            </div>
+            
+            <div class="col-sm-6 col-12"
+                style="vertical-align: middle; text-align: center; margin-top: 20px; margin-left: 0px; overflow-x:hidden;margin-bottom: 10px;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/s0wTdCQoc2k"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen style="margin-left: 0px; margin-right: 10px;"></iframe>
+                <h3 style="text-transform: uppercase; color: grey;">your_name-movie-trailer</h3>
+            </div>
+            <hr>
+            <div class=" col-sm-3 col-12" style="text-align: center ;vertical-align: middle; margin-bottom: 10px;">
+                <b>Rating: </b>
+
+                <span class="imdbRatingPlugin" data-user="ur135813985" data-title="tt5311514" data-style="p2"><a
+                        href="https://www.imdb.com/title/tt5311514/?ref_=plg_rt_1"><img
+                            src="https://ia.media-imdb.com/images/G/01/imdb/plugins/rating/images/imdb_38x18.png"
+                            alt="Your Name. (2016) on IMDb" />
+                    </a></span>
+                <script>(function (d, s, id) { var js, stags = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) { return; } js = d.createElement(s); js.id = id; js.src = "https://ia.media-imdb.com/images/G/01/imdb/plugins/rating/js/rating.js"; stags.parentNode.insertBefore(js, stags); })(document, "script", "imdb-rating-api");</script>
+                <br>
+                <b>Episodes:</b> 1(movie) <br>
+                <b>Director:</b> Makoto Shinkai <br>
+                <b>Box office:</b> ¥41.44 billion <br>
+                <b>Initial release: </b> 26 August 2016 (Japan) <br>
+                <b>Awards: </b>
+                <ul>
+                    <li>Academy Prize for Popularity Award - Most popular film</li>
+                    <li>Japan Record Special Award </li>
+                    <li>Bandung Film Festival for Imported Film</li>
+                    <li>Screenplay of the Year</li>
+                </ul>
+
+
+
+            </div>
+            <div class="row" style="border-top:thin dotted skyblue; padding-top: 15px;">
+                <div class="col-sm-2 col-6" style="text-align:center;font-family: monospace;">
+                    <img src="https://static.wikia.nocookie.net/kiminonawa/images/5/5d/Mitsuha_Miyamizu_2013.png/revision/latest?cb=20181114193828"
+                        alt="Mitsuha Miyamizu" class="character-img">
+                    <p class="collapse_faculty">Mitsuha Miyamizu</p>
+                </div>
+                <div class="col-sm-8 col-12 order-last"
+                    style="text-align:center;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;vertical-align: middle;margin-top: 20px;color:rebeccapurple; margin-bottom: 20px;">
+                    Two teenagers share a profound, magical connection upon discovering they are swapping bodies. Things
+                    manage to become even more complicated when the boy and girl decide to meet in person.
+                    <br>
+                    <a class="btn btn-info " data-toggle="collapse" href="#story_yourname" role="button"
+                        aria-expanded="false" aria-controls="collapseExample"
+                        style="margin-top: 20px; font-family: serif;">
+                        Story In Sort
+                    </a>
+                    <a class="btn btn-info " data-toggle="collapse" href="#What_is_Your_Name_about" role="button"
+                        aria-expanded="false" aria-controls="collapseExample"
+                        style="margin-top: 20px; font-family: serif;">
+                        What_is_Your_Name_about?
+                    </a>
+                    <a class="btn btn-info " data-toggle="collapse" href="#summary-yourname" role="button"
+                        aria-expanded="false" aria-controls="collapseExample"
+                        style="margin-top: 20px; font-family: serif;">
+                        Quick Plot Summary
+                    </a>
+
+                </div>
+                <div class="col-sm-2 col-6 order-first" style="text-align:center;font-family: monospace;">
+                    <img src="https://w0.peakpx.com/wallpaper/548/631/HD-wallpaper-taki-tachibana-anime-animes-animesfw-your-name.jpg"
+                        alt="Taki Tachibana" class="character-img">
+                    <p class="collapse_faculty">Taki Tachibana</p>
+                </div>
+            </div>
+        </div>
+        <div class="collapse" id="story_yourname">
+            <div class="card card-body" style="font-weight: bold; text-transform: 
+            capitalize;">
+                <h3>STORY IN SORT</h3>
+                <p>Several fragments of a comet fall through the sky. Most of them won’t collide with Earth, but one
+                    breaks off and hurtles directly towards the town of Itomori. Soon, everybody there will die. The
+                    parents, the children, the teachers, the politicians, the businessmen will all be gone.
+                    <br>
+                    And that includes Mitsuha Miyamizu.
+                    <br>
+                    During these opening moments of Your Name (Kimi no Na wa), we don’t realize Mitsuha is going to
+                    die. All we know is that Mitsuha and Taki Tachibana, despite not knowing each other and being
+                    miles away from one another, have somehow bonded over this celestial event that has captivated
+                    Japan. Together, they recite these opening lines:
+                    <br>
+                    <i style="font-weight: lighter;text-align: center;">“Once in a while when I wake up, I find myself
+                        crying. The dream I must have had I can
+                        never
+                        recall. But the sensation that I’ve lost something lingers for a long time after I wake up.
+                        I’m
+                        always searching for something, for someone. This feeling has possessed me I think from that
+                        day
+                        when the stars came falling. It was almost as if a scene from a dream. Nothing more, nothing
+                        less than a beautiful view.”</i>
+                    <br>
+                    Your Name comets
+                    Toho
+                    Immediately, Your Name opens with a cryptic, ambiguous scene—a trend that will continue
+                    throughout. Despite its charm, success, and visceral power, Your Name has a very convoluted
+                    story that’s difficult to grasp, that has left many wondering if it’s a mess of a movie that
+                    doesn’t work.
+                    <br>
+                    I’ve spent hours cycling through the questions people have posted about this movie, and yes
+                    indeed, there is PLENTY of crazy stuff to explain (which I’ll do) in this movie. But before I
+                    get into explaining the plot of Your Name, let’s remember that opening quote from Mitsuha and
+                    Taki and what it represents. Because understanding the movie’s intentions will help shape how we
+                    make sense of its complicated parts.
+                </p>
+            </div>
+        </div>
+        <div class="collapse" id="What_is_Your_Name_about">
+            <div class="card card-body" style="font-weight: bold; text-transform: 
+            capitalize; font-family: 'Source Sans Pro', sans-serif;">
+                <h3> What is Your Name about?</h3>
+                <p>
+
+                    I think it’s very easy to get wrapped up in the logic of Your Name’s narrative. Naturally, you want
+                    to pick apart every story development and plot hole to find out if the story’s foundation is sound.
+                    If a moment steps outside the movie’s logical structure? It triggers something in your brain. You
+                    start to focus on plot details, like how the Red String of Fate functions, or how Mitsuha’s and
+                    Taki’s realities could possibly intersect when they live three years apart, or how drinking
+                    kuchikamizake connects the two teenagers.
+                    <br>
+                    Essentially, you could become so enraptured with what all those elements represent on a rational
+                    level that we ignore the emotional core. So while many people on the Internet have attempted to
+                    explain the coherence of the plot, I think it’s essential to also include the human elements of the
+                    story. Like, what does this movie say about you and me? About the experience of finding love?
+                    <br>
+                    And our key insight into what Your Name is about? That quote from the beginning of the movie. Right
+                    off the bat, we’re introduced to two people who feel a connection to someone else…but don’t know who
+                    that someone is. There’s an emptiness both Taki and Mitsuha feel. There’s something missing. They
+                    are incomplete. They are, in that quote, expressing their desire to find their better half.
+
+                    To find love.
+                    <br>
+
+                    Toho
+                    Mitsuha and Taki’s description of what they feel when those comets fall through the sky isn’t
+                    specific, or logical, or definite—it’s ambiguous, and cryptic, and enigmatic. Love isn’t something
+                    you can explain, but it’s something you feel. And Your Name treats that feeling as an ethereal one.
+                    Love is not bound by space or time, but instead by the individuals who are inextricably connected no
+                    matter where they are.
+                    <br>
+                    I think this is an important mindset to have heading into a plot explanation of the movie. Because
+                    while all of the confusing plot elements of Your Name can be explained, I believe they gain power
+                    and even more meaning when we can connect those explanations to Mitsuha and Taki’s desire to find
+                    love—a feeling we can all empathize with.
+                </p>
+
+            </div>
+        </div>
+        <div class="collapse" id="summary-yourname">
+            <div class="card card-body" style="font-weight: bold; text-transform: 
+            capitalize; font-family: 'Source Sans Pro';">
+                <h3 style="text-align:center">A quick plot summary of Your Name</h3>
+                <img src="https://filmcolossus.com/wp-content/uploads/2019/03/your-name-movie-timeline.jpg"
+                    alt="TIME LINE" style="text-align: center;">
+            </div>
+        </div>
+    </div>
+    <!-- whetering with you -->
+    <hr>    
+    <!-- contact us -->
+    <div class="container" style="margin-top: 30px;" id="contact_us">
+        <div class="row">
+            <div class="col-sm-5 col-12">
+                <img src="https://ekatta.in/assets/img/what-we-are.png" alt="" width="500px">
+            </div>
+            <div class="col-sm-7">
+                <div class="row">
+                    <div class="col-sm-12 col-12 order-first">
+                        <p style="font-family: 'Prata', serif;
+                    font-family: 'Source Sans Pro', sans-serif;text-align: center;font-size: 30px;color: grey;">GET IN
+                            TOUCH</p>
+
+                        <div class="row">
+                            <!-- social media -->
+                            <div class="col-sm-6 col-12 order-first" style="text-align: center;">
+                                <h5 style="font-family: cursive;">Social Media</h5>
+                                <div class="row">
+                                    <div class="col-sm-12 col-12" style="text-align:center">
+                                        <a href="https://github.com/sudarshankakde" target="_blank" rel="noopener noreferrer"><i class="fa fa-github icons" style="font-size: 30px;" id="github"></i></a>
+                                        <a href="https://wa.link/clfznw" target="_blank" rel="noopener noreferrer"><i class="fa fa-whatsapp icons" style="font-size: 30px;" id="whatsapp"></i></a>
+                                        <a href="https://www.instagram.com/sudarshan_kakde_/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram icons" style="font-size: 30px;" id="instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- contact deteails -->
+                            <div class="col-sm-6 col-12 " style="text-align: center;">
+                                <h5 style="font-family: cursive; text-transform: capitalize;">Contact details</h5>
+                                <div class="row" style="text-align: center;">
+                                    <div class="col-sm-12 col-12" style="text-align:center;">
+                                        <a href="mailto:sudarshankakde1111@gmail.com" class="">contact@animeworld.in</a>
+                                    </div>
+                                </div>
+                                <div class="row" style="text-align: center;">
+                                    <div class="col-sm-12 col-12">
+                                        <a href="tel:+919021757520" class="">9021767520</a> /
+                                        <a href="tel:+918600982567" class="">8600982567</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 20px;">
+                    <div class="col-sm-12 col-12" style="text-align:center ;font-family: 'Source Sans Pro', sans-serif;text-align: center;font-size: 30px;color: grey">
+                        <h5>WRITE YOUR RESPONCE</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-12" style="overflow-x: hidden;">
+                        <input type="text" name="" id="name" required placeholder="NAME*" size="30%">
+                    </div>
+                    <div class="col-sm-6 col-12" style="overflow-x: hidden;">
+                        <input type="email" name="" id="mail"placeholder="Email" size="30%">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-12" style="overflow-x: hidden;">
+                        <input type="text" id="msg" placeholder="Message*" required size="45%">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-12">
+                        <button type="submit" class="btn btn-primary " id="submit-btn">POST COMMENT</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright © 2020-2021 wellpie.com</p>
+    </footer>
+</body>
+
+</html>
