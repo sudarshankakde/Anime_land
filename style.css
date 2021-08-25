@@ -78,7 +78,7 @@ footer{
     padding-bottom: 20px;
 }
 footer:hover{
-    background-color:#e6e6e6;
+    background-color: sandybrown;
 
 }
 #msg,#name,#mail{
@@ -102,7 +102,3 @@ footer:hover{
 #YOUR_NAME{
     border: transparent;
 }
-/* #YOUR_NAME:hover{
-    background-color: #181818;
-    color:white
-} */

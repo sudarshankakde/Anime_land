@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN | ANIME-LAND</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <!-- fa fa icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- style -->
+    <style>
+        body {
+            background-image: linear-gradient(rgba(10, 0, 5, 0.4), rgba(10, 0, 5, 0.4)),
+                url('https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+            background-size: cover;
+            background-repeat: repeat;
+            font-family: 'Acme', sans-serif;
+
+        }
+
+        .continer {
+            align-self: center;
+
+        }
+
+        #box>form>.input {
+            text-align: center;
+            margin: 10px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-decoration: none;
+            color: #181818;
+            opacity: 0.5;
+
+        }
+
+        #box>form>.input:hover {
+            background-color: #181818;
+            color: aliceblue;
+            transition: 0.5s ease-in-out;
+        }
+
+        /* #box>#R-me {} */
+
+        /* #box {} */
+
+        #box:hover {
+            transition: 2s;
+        }
+
+        #maintext {
+            font-size: 25px;
+            margin-top: 20px;
+            margin-bottom: auto;
+            text-transform: uppercase;
+            color: #b8b3b3;
+        }
+
+        #R-me,
+        #R-me>input {
+            color: #b8b3b3;
+            margin: 10px;
+        }
+
+        #R-me:hover,
+        #R-me>input:hover {
+            color: #b8b3b3;
+
+
+        }
+
+        .btn {
+            padding-left: 90px;
+            padding-right: 90px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        #main-box {
+            opacity: 1;
+
+        }
+
+        #warning {
+            visibility: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- alert mgs -->
+    <div class="alert alert-danger alert-dismissible fade show" role="alert" id="warning">
+        <strong id="W-mgs">password must be filled!</strong>&nbsp;&nbsp;&nbsp; You should check entered value again.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+    <!-- main continer -->
+    <div class="container text-center align-middle " style="margin-top:150px;
+    ">
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4" id="main-box">
+                <div id="box" style="padding-top: 60px; padding-bottom: 60px;">
+                    <form onclick="return func()" action="./index.html">
+                        <h1 id="maintext">LOGIN/SINGUP</h1>
+                        <br>
+                        <i class="fa fa-user" style="font-size:18px;"></i>
+                        <input type="text" placeholder="Username" id="username" class="input">
+                        <br>
+                        <i class="fa fa-key" style="font-size:18px;"></i>
+                        <input class="input" type="password" placeholder="password" id="pass">
+                        <br>
+                        <span id="R-me">
+                            <input type="checkbox" name="rember me">Remember Me
+                        </span>
+                        <br>
+                        <button type="submit" value="submit" class="btn btn-outline-success">Sing In</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-sm-4"></div>
+        </div>
+    </div>
+    <script>
+        var uname = document.getElementById('username');
+        var pass = document.getElementById('pass');
+        var passv = document.getElementById('pass').value;
+        console.log('value lenght',passv.lenght);
+        function func() {
+            if (uname.value == '') {
+                uname.style.border = 'thin solid red';
+                return false;
+            }
+            else if (pass.value == '') {
+                pass.style.border = 'thin solid red';
+                document.getElementById('warning').style.visibility = 'visible';
+                return false;
+            }
+            else if (passv.lenght>2) {
+                alert('working')
+                pass.style.border = 'thin solid red';
+                document.getElementById('W-mgs').innerHTML="password must contine more then 4 carecters!";
+                document.getElementById('warning').style.visibility = 'visible';
+                return false;
+            }
+            else {
+                return true;
+            }
+        }
+    </script>
+</body>
+
+</html>
