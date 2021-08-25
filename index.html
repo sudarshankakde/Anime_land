@@ -28,20 +28,24 @@
         type="image/gif" sizes="300*300 ">
 </head>
 
-<body>
+<body class="dark light" id="body">
     <!-- navbar -->
-    <div class="fluid-container" id="navbar">
+    <div class="fluid-container dark light" id="navbar">
         <nav class="navbar navbar-expand-lg navbar-success bg-light">
-            <a class="navbar-brand" href="#"><img src="https://images.squarespace-cdn.com/content/v1/5008a2b9c4aa6450352d1d97/1391960929869-MCMZDK21SLBVF4WEJO8W/wasabi-logo.png" alt="ANIME-LAND" height="50px" width="120px"></a>
+            <a class="navbar-brand" href="#"><img
+                    src="https://images.squarespace-cdn.com/content/v1/5008a2b9c4aa6450352d1d97/1391960929869-MCMZDK21SLBVF4WEJO8W/wasabi-logo.png"
+                    alt="ANIME-LAND" height="50px" width="120px"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"><i class="fa fa-bars"
+                        style="align-items: center;vertical-align: middle;padding: 2px; padding-top: 3px;"></i></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link  " href="#navbar" title="Home">Home<span class="sr-only">(current)</span></a>
+                        <a class="nav-link  " href="./index.html" title="Home">Home<span
+                                class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -57,12 +61,13 @@
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#YOUR_NAME" style="color:royalblue">YOUR_NAME <i
                                     class="fa fa-heart"></i></a>
-                            <a class="dropdown-item disabled" href="#weathering_with_you" style="color:royalblue" title="Coming soon">Weathering_With_You
+                            <a class="dropdown-item disabled" href="#weathering_with_you" style="color:royalblue"
+                                title="Coming soon">Weathering_With_You
                                 <i class="fa fa-cloud"></i></a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#contact_us" title="Contact me">Download</a >
+                        <a class="nav-link " href="#contact_us" title="Contact me">Download</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link disabled" href="#" title="Comming soon">WATCH Online</a>
@@ -72,9 +77,12 @@
                 <form class="form-inline my-2 my-lg-0">
                     <nav class="navbar navbar-light bg-light">
                         <!-- dark mode button -->
-                        <button class="btn btn-outline-dark" id="mode" style="margin-right: 10px;"><i
-                                class="fa fa-moon-o" aria-hidden="true"></i></button>
+                        <a href="#"><button class="btn btn-outline-dark" id="mode" style="margin-right: 10px;"></a>
+                        <i class="fa fa-moon-o" aria-hidden="true" id='mode_icon'>
 
+                        </i>
+                        </button>
+                        <!-- Singup/login button -->
                         <button class="btn btn-outline-success" type="button">Login/SingUp</button>
                     </nav>
                 </form>
@@ -82,7 +90,7 @@
         </nav>
     </div>
     <!-- slider -->
-    <div class="container" id="slider">
+    <div class="container dark light" id="slider">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -95,7 +103,8 @@
                     <img class="d-block w-100" src="https://i.ytimg.com/vi/NjeIK4yKDWk/maxresdefault.jpg"
                         alt="First slide" height="600px">
                     <div class="carousel-caption d-none d-md-block slide-text">
-                        <h5><a href="#Jujutsu_Kaisen" style="color:unset">Jujutsu_Kaisen</a></h5>
+                        <h5><a href="#Jujutsu_Kaisen" style="color:red;">Jujutsu_Kaisen <i class="fa fa-fire"></i></a>
+                        </h5>
                         <p>The word Jujutsu translates into sorcery. And Jujutsu Kaisen literally means sorcery fight
                         </p>
                     </div>
@@ -105,7 +114,7 @@
                         src="https://static0.cbrimages.com/wordpress/wp-content/uploads/2021/06/Death-Note-End.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5"
                         alt="Second slide" height="600px">
                     <div class="carousel-caption d-none d-md-block slide-text">
-                        <h5> <a href="#Death_Note"> Death-Note</a></h5>
+                        <h5> <a href="#Death_Note"> Death-Note <i class="fa fa-book"></i></a></h5>
                         <p>The titular supernatural notebook used by the Shinigami to sustain their life.</p>
                     </div>
                 </div>
@@ -114,15 +123,16 @@
                         src="https://static.wikia.nocookie.net/01662c7d-5dc6-4746-a7b5-afe5afb747ab/scale-to-width-down/800"
                         alt="Third slide" height="600px">
                     <div class="carousel-caption d-none d-md-block slide-text">
-                        <h5><a href="#YOUR_NAME" style="color:inherit">YOUR NAME</a></h5>
-                        <p>BEST STORY EVER MUST WATCH! <i class="fa fa-heart" aria-hidden="true"></i></p>
+                        <h5><a href="#YOUR_NAME" style="color:red;">YOUR NAME <i class="fa fa-heart-o"></i></a></h5>
+                        <p>BEST STORY EVER MUST WATCH!</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="https://bit.ly/3z6Zci5" alt="fourth slide" height="600px">
                     <div class="carousel-caption d-none d-md-block slide-text">
-                        <h5><a href="#weathering_with_you">Weathering With You</a></h5>
-                        <p>Girl who can manipulate the weather.(Coming soon) <i class="fa fa-cloud" aria-hidden="true"></i></p>
+                        <h5><a href="#weathering_with_you">Weathering With You <i class="fa fa-cloud"
+                                    aria-hidden="true"></a></i></h5>
+                        <p>Girl who can manipulate the weather. </p>
                     </div>
                 </div>
             </div>
@@ -137,9 +147,11 @@
         </div>
     </div>
     <!-- jujustu kaisen -->
-    <div class="container" id="Jujutsu_Kaisen">
-        <p style="text-align: center; font-family: cursive; color:grey;text-decoration: underline;font-size: larger;">jujustu Kaisen
-        <i class="fa fa-fire"></i></p>
+    <div class="container dark light" id="Jujutsu_Kaisen">
+        <p style="text-align: center; font-family: cursive; color:grey;text-decoration: underline;font-size: larger;">
+            jujustu Kaisen
+            <i class="fa fa-fire"></i>
+        </p>
         <div class="row">
             <div class="col-sm-3 col-12" style="text-align: center;">
                 <img src="https://bit.ly/3B2ZkQy" alt="jujutsu kaisen" height="300px" width="250px"
@@ -254,9 +266,11 @@
         </div>
     </div>
     <!-- Death-Note -->
-    <div class="container" id="Death_Note" style="margin-top: 30px ;">
-        <p style="text-align: center; font-family: cursive; color:grey;text-decoration: underline;font-size: larger;">Death-Note
-        <i class="fa fa-book"></i></p>
+    <div class="container dark light" id="Death_Note" style="margin-top: 30px ;">
+        <p style="text-align: center; font-family: cursive; color:grey;text-decoration: underline;font-size: larger;">
+            Death-Note
+            <i class="fa fa-book"></i>
+        </p>
         <div class="row">
             <div class="col-sm-3 col-12 " style="text-align: center;">
                 <img src="https://cdn.europosters.eu/image/750/posters/death-note-from-the-shadows-i58005.jpg"
@@ -374,8 +388,9 @@
     </div>
     <hr>
     <!-- your name -->
-    <div class="container" id="YOUR_NAME" style="margin-top: 30px;">
-        <p style="text-align: center; font-family: cursive; color:grey;text-decoration: underline;font-size: larger;">YOUR_NAME <i class="fa fa-heart"></i></p>
+    <div class="container dark light" id="YOUR_NAME" style="margin-top: 30px;">
+        <p style="text-align: center; font-family: cursive; color:grey;text-decoration: underline;font-size: larger;">
+            YOUR_NAME <i class="fa fa-heart"></i></p>
         <div class="row">
             <div class="col-sm-3 col-12" style="text-align:center;vertical-align: middle; ">
                 <img src="https://contentserver.com.au/assets/525768_gnau_yourname_p_v7_aa.jpg" alt="YOUR NAME"
@@ -385,7 +400,7 @@
                     YOUR NAME <i class="fa fa-heart" style="color: red;"></i></p>
 
             </div>
-            
+
             <div class="col-sm-6 col-12"
                 style="vertical-align: middle; text-align: center; margin-top: 20px; margin-left: 0px; overflow-x:hidden;margin-bottom: 10px;">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/s0wTdCQoc2k"
@@ -545,13 +560,169 @@
             </div>
         </div>
     </div>
+    <hr>
     <!-- whetering with you -->
-    <hr>    
+    <div class="container dark light" id="weathering_with_you" style="margin-top: 30px ;">
+        <p style="text-align: center; font-family: cursive; color:grey;text-decoration: underline;font-size: larger;">
+            Whetering With You
+            <i class="fa fa-cloud"></i>
+
+        </p>
+        <div class="row">
+            <div class="col-sm-3 col-12 " style="text-align: center;">
+                <img src="https://bit.ly/3kofiOn" alt="jujutsu kaisen" height="350px" width="250px"
+                    style="border-radius: 5px;" class=" ">
+                <p class="collapse_faculty"
+                    style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    Whetering With You <i class="fa fa-cloud" style="color: blue;"></i></p>
+
+            </div>
+            <div class="col-sm-6 col-12 " style="vertical-align: middle;text-align: center; align-items: center;">
+                <p style="text-align:center; vertical-align: middle; margin-top: 20px; font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    color:rebeccapurple;"> Set during a period of exceptionally rainy weather, high-school boy Hodaka
+                    Morishima runs away from his troubled rural home to Tokyo and befriends an orphan girl who can
+                    manipulate the weather.
+                </p>
+
+                <a class="btn btn-info " data-toggle="collapse" href="#summary-wwy" role="button" aria-expanded="false"
+                    aria-controls="collapseExample">
+                    Summary
+                </a>
+                <a class="btn btn-info " data-toggle="collapse" href="#review-wwy" role="button" aria-expanded="false"
+                    aria-controls="collapseExample">
+                    Review
+                </a>
+                <a class="btn btn-info " data-toggle="collapse" href="#characters-wwy" role="button"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    Main characters
+                </a>
+                <a class="btn btn-info " data-toggle="collapse" href="#trailer-wwy" role="button" aria-expanded="false"
+                    aria-controls="collapseExample">
+                    Trailer
+                </a>
+            </div>
+            <div class="col-sm-3 col-12" style="text-align: center;vertical-align: middle;">
+                <p style="margin-top: 20px;"><b>Author: </b> Makoto Shinkai </p>
+                <p><b>Box office:</b> 19.35 crores USD</p>
+                <p><b>Director:</b> Makoto Shinkai</p>
+
+                <p><b>Adaptations:</b>Child of Weather</p>
+                <p><b>Genres:</b>Romance, Fantacy, Teen, Disater, Drama</p>
+            </div>
+        </div>
+        <!-- summary -->
+        <div class="collapse" id="summary-wwy">
+            <div class="card card-body" style="font-weight: bold;">
+                <h3>SUMMARY OF Death-Note</h3>
+                Hodaka runs away from home to chase a light – a light that brings him to Hina. Someone who has just
+                experienced a recent tragedy that is life-altering and makes it seem the rain overhead, and darkness the
+                clouds brings, are very fitting for her mood. But, she too sees a light and ventures to where it lands
+                on the top of a condemned building. It is there when she finds herself praying at a small shrine and
+                finding herself becoming a sunshine girl.
+
+                Now, what is a sunshine girl? Well, it means when Hina prays, the rain that has lasted over Tokyo for
+                over 2 months dissipates. However, when it comes to Hodaka, Hina is less of a sunshine girl because of a
+                mysteriously inherited power and more so for being a light in what he portrays to be a rather dark life.
+                Though, no matter who you ask, there is the vibe he is just being dramatic
+            </div>
+        </div>
+        <!-- Review -->
+        <div class="collapse" id="review-wwy">
+            <div class="card card-body" style="font-weight: bold;">
+                <h3>Review</h3>
+
+                I absolutely loved this movie. I normally don't write reviews, however, this was just too good to pass
+                up. First of all, one of the things that made this movie so amazing was the BEAUTIFUL animation. All of
+                the scenes were well done and when the camera pans over the whole city, I felt my heart yearn with
+                desire. I wanted to live in this kind of world, with the beautiful sky, detailed buildings, and soft,
+                colorful light reflecting off every turn and corner. Oh, what I would give to experience just one of
+                those clips. You can really tell the effort and costs that went into this masterpiece. The scenery was
+                breathtaking and the sky was done extra well, as this movie focuses on weather. Second of all, the plot.
+                The simple, beautiful, youthful plot. This makes you want a love story just like this, with unique
+                characters and chance encounters. Not only was it well thought out, it really left you guessing here and
+                there on what would happen next. One moment you're wondering how they're going to sleep, and the next
+                how they're going to escape the police! Simple as it was, you must admit that sometimes it left you in
+                shock. I really enjoyed Makoto's earlier film, Your Name, as it had such a rich and complex plot. Each
+                character was well thought out, and their interactions were so cute. I had very high expectations for
+                Weathering with You, and they exceeded them with scores off the roof. Although the plot was simpler,
+                it's still such a sweet, magical, and simple love story. It really teaches you about love, and how
+                people would do anything for their significant other and a chance to be with them forever. When watching
+                this, I was totally drawn to Hodaka and how he acted towards the end. I found myself cheering him on,
+                praying he would save Hina. The movie makes you really feel as if you were him, and I absolutely loved
+                that. This movie will make you cry, laugh, and shout, which I find amazing since not many movies can
+                really make YOU react. I also want to mention the soundtrack. The songs are so beautiful and work so
+                well with every scene. All the buildup and beat drops really added to the complexity of the quality of
+                this production. I specifically liked it when Hodaka saw Hina at the end, and the music got more upbeat.
+                It's a beautiful way to end a movie, and without this incredible soundtrack, the movie would not be
+                nearly as well made as it is. Often times I find that many movies and shows' potentials are wasted with
+                the trash soundtracks, however this movie took full advantage of the music and used it to the fullest.
+                It's the same with Your Name, the music producer did an amazing job with it. Like with Your Name, I felt
+                a serious emptiness in myself when the movie finished. The ending was absolutely amazing, leaving us off
+                on a sweet note as we are told everything would be alright. In Your Name, they also left off on a
+                similar note. We are forced to assume everything will work out, and for me, I'm obsessed with these
+                kinds of endings. In the end, this movie was totally worth watching. When it first came out, I was kind
+                of reluctant to watch it, because I heard that it didn't compare to Your Name. But let me tell you this-
+                you can't even compare the two. They are just so beautiful in different ways, I couldn't say which one I
+                liked better. The graphics, storyline, animation, beautiful scenery, complex characters, and soundtrack
+                are what make this a 10/10 all in the end. Please watch it! You won't regret it :)
+            </div>
+        </div>
+
+        <!-- charecters -->
+        <div class="collapse" id="characters-wwy">
+            <div class="card card-body" style="font-weight: bold;">
+                <div class="container">
+                    <div class="row " style="text-align: center;">
+                        <div class="col-sm-1 col-0">
+
+                        </div>
+                        <div class="col-sm-2 col-6  collapse_faculty">
+                            <img src="https://bit.ly/3zfWEhI" alt="Hodaka Morishima" class="character-img">
+                            <p>Hodaka Morishima </p>
+                        </div>
+                        <div class="col-sm-2 col-6 collapse_faculty">
+                            <img src="https://bit.ly/3Dbbc4L" alt="Hina Amano" class="character-img">
+                            <p>Hina Amano</p>
+                        </div>
+                        <div class="col-sm-2 col-6 collapse_faculty">
+                            <img src="https://bit.ly/3y8r445" alt="Amano Nagi" class="character-img">
+                            <p>Amano Nagi(Brother of Hina)</p>
+                        </div>
+                        <div class="col-sm-2 col-6 collapse_faculty">
+                            <img src="https://static.wikia.nocookie.net/tenkinoko1663/images/2/29/Natsumi_Suga.png/revision/latest?cb=20201124202851"
+                                alt="natsumi suga" class="character-img">
+                            <p>Natsumi Suga</p>
+
+                        </div>
+                        <div class="col-sm-2 col-6 collapse_faculty">
+                            <img src="https://i.pinimg.com/originals/36/d7/d4/36d7d47eefddfb9d93955d83e73534ba.jpg"
+                                alt="keisuke suga" class="character-img">
+                            <p>Keisuke Suga</p>
+
+                        </div>
+                        <div class="col-sm-1 col-0">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- trailer -->
+        <div class="collapse" id="trailer-wwy">
+            <div class="card card-body" style="font-weight: bold; align-items: center;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/9TN44ZBVo-A?start=5"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <hr>
     <!-- contact us -->
-    <div class="container" style="margin-top: 30px;" id="contact_us">
+    <div class="container dark light" style="margin-top: 30px;" id="contact_us">
         <div class="row">
             <div class="col-sm-5 col-12">
-                <img src="https://ekatta.in/assets/img/what-we-are.png" alt="" width="500px">
+                <img src="https://ekatta.in/assets/img/what-we-are.png" alt="ekatta contact us" width="500px">
             </div>
             <div class="col-sm-7">
                 <div class="row">
@@ -566,9 +737,15 @@
                                 <h5 style="font-family: cursive;">Social Media</h5>
                                 <div class="row">
                                     <div class="col-sm-12 col-12" style="text-align:center">
-                                        <a href="https://github.com/sudarshankakde" target="_blank" rel="noopener noreferrer"><i class="fa fa-github icons" style="font-size: 30px;" id="github"></i></a>
-                                        <a href="https://wa.link/clfznw" target="_blank" rel="noopener noreferrer"><i class="fa fa-whatsapp icons" style="font-size: 30px;" id="whatsapp"></i></a>
-                                        <a href="https://www.instagram.com/sudarshan_kakde_/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram icons" style="font-size: 30px;" id="instagram"></i></a>
+                                        <a href="https://github.com/sudarshankakde" target="_blank"
+                                            rel="noopener noreferrer"><i class="fa fa-github icons"
+                                                style="font-size: 30px;" id="github"></i></a>
+                                        <a href="https://wa.link/clfznw" target="_blank" rel="noopener noreferrer"><i
+                                                class="fa fa-whatsapp icons" style="font-size: 30px;"
+                                                id="whatsapp"></i></a>
+                                        <a href="https://www.instagram.com/sudarshan_kakde_/" target="_blank"
+                                            rel="noopener noreferrer"><i class="fa fa-instagram icons"
+                                                style="font-size: 30px;" id="instagram"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -591,7 +768,8 @@
                     </div>
                 </div>
                 <div class="row" style="margin-top: 20px;">
-                    <div class="col-sm-12 col-12" style="text-align:center ;font-family: 'Source Sans Pro', sans-serif;text-align: center;font-size: 30px;color: grey">
+                    <div class="col-sm-12 col-12"
+                        style="text-align:center ;font-family: 'Source Sans Pro', sans-serif;text-align: center;font-size: 30px;color: grey">
                         <h5>WRITE YOUR RESPONCE</h5>
                     </div>
                 </div>
@@ -600,7 +778,7 @@
                         <input type="text" name="" id="name" required placeholder="NAME*" size="30%">
                     </div>
                     <div class="col-sm-6 col-12" style="overflow-x: hidden;">
-                        <input type="email" name="" id="mail"placeholder="Email" size="30%">
+                        <input type="email" name="" id="mail" placeholder="Email" size="30%">
                     </div>
                 </div>
                 <div class="row">
@@ -619,6 +797,8 @@
     <footer>
         <p>Copyright © 2020-2021 wellpie.com</p>
     </footer>
+    <!-- script -->
+    <script src="script.js"></script>
 </body>
 
 </html>
